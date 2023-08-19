@@ -15,12 +15,12 @@ const datas = [
   },
   {
     id: 3,
-    url: "",
+    url: "/",
     title: "About",
   },
   {
     id: 4,
-    url: "/Projects",
+    url: "/projects",
     title: "Projects",
   },
 ];

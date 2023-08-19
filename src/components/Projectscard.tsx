@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import dashboard from "../assets/dashboard.png";
 import socialmedia from "../assets/socialmedia.png";
 
@@ -55,9 +56,10 @@ const Projectscard = () => {
       {/* <Link href={"Projects"} className="xl:mt-16">
         - - See More ! - -
       </Link> */}
-      <a href={"Projects"} className="xl:mt-16">
+      <Link to="/Projects" className="xl:mt-16">
         - - See More ! - -
-      </a>
+      </Link>
+      
     </div>
   );
 };
