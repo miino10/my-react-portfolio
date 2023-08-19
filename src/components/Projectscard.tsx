@@ -1,8 +1,5 @@
-import dashboard from '../assets/dashboard.png';
-
-import membership from "../assets/membership.png";
+import dashboard from "../assets/dashboard.png";
 import socialmedia from "../assets/socialmedia.png";
-import charity from '../assets/charity.png';
 
 const Projectscard = () => {
   return (
@@ -49,9 +46,9 @@ const Projectscard = () => {
         </div>
 
         {/* 3 */}
-       
+
         {/* 4 */}
-       
+
         {/* 5 */}
       </div>
 
