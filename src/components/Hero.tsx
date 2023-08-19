@@ -3,7 +3,7 @@ import heroimg from "../assets/image.jpg";
 
 const Hero = () => {
   return (
-    <div className="mt-9 md:flex  justify-between  ">
+    <div className="mt-5 mb-10 lg:mb-10 md:flex justify-between  h-[850px] md:mb-40  ">
       {/* right part */}
       <div className="flex md:flex-1 flex-col justify-between mt-20  ">
         <div className="flex flex-col justify-center items-center text-start text-sm  md:ml-20  md:items-start ">
@@ -14,14 +14,14 @@ const Hero = () => {
               <div className="flex  md:gap-4">
                 <h1 className="font-bold text-xl md:text-5xl">Hi! IAm </h1>
                 <span className="bg-blue-500 rounded-b-full py-1 px-2 md:py-4 md:px-4 text-white md:text-3xl ">
-                  Programmeree
+                  Programmer
                 </span>
               </div>
 
               <h1 className="font-bold text-xl  md:text-5xl ">
                 Abdifatah dahir
               </h1>
-              <p className="py-2 md:text-lg">
+              <p className="py-2 md:text-xl">
                 Design user interfaces for over 7 years as a product designer
               </p>
             </div>
@@ -79,8 +79,12 @@ const Hero = () => {
         </div>
       </div>
       {/* className=" w-screen h-screen md flex-1 my-3 md:my-0 bg-red-400 relative" */}
-      <div className=" w-screen min-h-screen md:max-h-full   md:flex-1 my-3 md:my-0 relative">
-        <img src={heroimg} alt="Project" className="" />
+      <div className="   object-cover  md:flex-1 my-3 md:my-0 relative">
+        <img
+          src={heroimg}
+          alt="Project"
+          className="w-screen h-[300px] lg:h-full  md:h-[111%] object-fill"
+        />
       </div>
       {/* left part */}
     </div>

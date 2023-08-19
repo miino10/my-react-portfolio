@@ -2,7 +2,7 @@ import TestImg1 from '../assets/testImage1.jpg';
 import TestImg2 from "../assets/testImage2.jpg";
 import TestImg3 from "../assets/testImage3.jpg";
 import TestImg4 from "../assets/testImage4.jpg";
-
+// import TestImg5 from "../assets/testImage5.jpg";
 
 const Testimonials = () => {
   return (
@@ -15,8 +15,8 @@ const Testimonials = () => {
       <div className=" lg:flex lg:flex-col lg:gap-3 ">
         <div className="bg-green-100  m-3 flex flex-col p-5 rounded-lg gap-3 lg:">
           <div className="flex items-center gap-3">
-            <div className=" w-16 h-16 relative rounded-full overflow-hidden">
-              <img src={TestImg1} />
+            <div className="relative rounded-full overflow-hidden">
+              <img src={TestImg1} className=" w-20 h-20 object-cover" />
             </div>
             <h2 className="text-xl font-semibold">Chio beng du</h2>
           </div>
@@ -31,8 +31,8 @@ const Testimonials = () => {
         {/* 2 */}
         <div className="bg-green-100  m-3 flex flex-col p-5 rounded-lg gap-3">
           <div className="flex items-center gap-3">
-            <div className=" w-16 h-16 relative rounded-full overflow-hidden">
-              <img src={TestImg2} />
+            <div className="  relative rounded-full overflow-hidden">
+              <img src={TestImg2} className=" w-20 h-20 object-cover" />
             </div>
             <h2 className="text-xl font-semibold">Hussien Yallaxow</h2>
           </div>
@@ -47,8 +47,8 @@ const Testimonials = () => {
         {/* 3 */}
         <div className="bg-green-100  m-3 flex flex-col p-5 rounded-lg gap-3">
           <div className="flex items-center gap-4">
-            <div className=" w-16 h-16 relative  rounded-full overflow-hidden">
-              <img src={TestImg3} />
+            <div className=" relative  rounded-full overflow-hidden">
+              <img src={TestImg3} className=" w-20 h-20 object-cover" />
             </div>
             <h2 className="text-xl font-semibold">Amuda kulle</h2>
           </div>
@@ -64,8 +64,8 @@ const Testimonials = () => {
         {/* 4 */}
         <div className="bg-green-100 m-3 flex flex-col p-5 rounded-lg gap-3  ">
           <div className="flex items-center gap-4">
-            <div className=" w-16 h-16 relative rounded-full  overflow-hidden ">
-              <img src={TestImg4} />
+            <div className=" relative rounded-full  overflow-hidden ">
+              <img src={TestImg4} className=" w-20 h-20 object-cover" />
             </div>
             <h2 className="text-xl font-semibold">John winson</h2>
           </div>

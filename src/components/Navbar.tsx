@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between mx-auto  ">
         {/* logo */}
         <div className="md:flex-1">
-          <a href={"/"} className="text-4xl font-extrabold xl:text-5xl">
+          <a href={"/"} className="text-4xl font-bold xl:text-5xl">
             Miino<button className="w-2 h-2 bg-red-600 rounded-full "></button>
           </a>
         </div>
