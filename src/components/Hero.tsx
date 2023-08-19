@@ -14,7 +14,7 @@ const Hero = () => {
               <div className="flex  md:gap-4">
                 <h1 className="font-bold text-xl md:text-5xl">Hi! IAm </h1>
                 <span className="bg-blue-500 rounded-b-full py-1 px-2 md:py-4 md:px-4 text-white md:text-3xl ">
-                  Programmer
+                  Programmeree
                 </span>
               </div>
 
