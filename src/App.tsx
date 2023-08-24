@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Projectscard from "./components/Projectscard";
 import Testimonials from "./components/Testimonials";
 import ProjectsPage from "./components/ProjectsPage";
+import EmailForm from "./components/EmailForm";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Mystack />
       <Testimonials />
       <Projectscard />
+      <EmailForm/>
 
       <Footer />
     </Router>

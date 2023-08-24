@@ -11,7 +11,7 @@ const Projectscard = () => {
       <div className="md:flex md:flex-wrap md:items-center md:pl-10 md:w-full xl:full lg:pl-48 xl:gap-12 ">
         <div className="flex flex-col    m-4 w-72 h-96  px-6  lg:w-2/5  xl:mb-20 ">
           <div className="w-full h-full relative ">
-            {/* <Image alt="" src="/dashboard.png" fill className="object-cover" /> */}
+          
             <img src={dashboard} className="object-cover" />
           </div>
           <div className="flex flex-col gap-2 bg-green-200 py-2 px-4 ">
@@ -27,12 +27,7 @@ const Projectscard = () => {
         {/* 2 */}
         <div className="flex flex-col    m-4 w-72 h-96 px-6 lg:w-2/5 ">
           <div className="w-full h-full relative   ">
-            {/* <Image
-              alt=""
-              src="/socialmedia.png"
-              fill
-              className="object-cover"
-            /> */}
+           
             <img src={socialmedia} className="object-cover" />
           </div>
           <div className="flex flex-col gap-2 bg-green-200 py-2 px-4 ">
@@ -46,17 +41,11 @@ const Projectscard = () => {
           </div>
         </div>
 
-        {/* 3 */}
-
-        {/* 4 */}
-
-        {/* 5 */}
+       
       </div>
 
-      {/* <Link href={"Projects"} className="xl:mt-16">
-        - - See More ! - -
-      </Link> */}
-      <Link to="/Projects" className="xl:mt-16">
+      
+      <Link to="/projects" className="xl:mt-16">
         - - See More ! - -
       </Link>
       
