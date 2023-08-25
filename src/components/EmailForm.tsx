@@ -33,6 +33,7 @@ const EmailForm = () => {
   const formRef = useRef<HTMLFormElement | null>(null);
   const sendEmail = async (data: FormData) => {
     console.log("it worked", data);
+
     if (formRef.current) {
       try {
         const result = await emailjs.sendForm(
@@ -133,7 +134,7 @@ const EmailForm = () => {
             value="send"
             className="bg-green-300 p-2 rounded-md  w-full md:h-1/3 text-xl"
           >
-            send
+            Send
           </button>
         </div>
       </form>
