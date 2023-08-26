@@ -32,16 +32,19 @@ const EmailForm = () => {
 
   const formRef = useRef<HTMLFormElement | null>(null);
   const sendEmail = async (data: FormData) => {
+    const serviceId = import.meta.env.VITE_YOUR_SERVICE_ID;
+    const templateId = import.meta.env.VITE_YOUR_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_YOUR_PUBLIC_KEY;
     console.log("it worked", data);
 
     if (formRef.current) {
       try {
         const result = await emailjs.sendForm(
-          import.meta.env.VITE_YOUR_SERVICE_ID,
-          import.meta.env.VITE_YOUR_TEMPLATE_ID,
+          serviceId,
+          templateId,
 
           formRef.current,
-          import.meta.env.VITE_YOUR_PUBLIC_KEY
+          publicKey
         );
 
         console.log("sent");
